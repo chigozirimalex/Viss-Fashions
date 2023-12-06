@@ -1,0 +1,72 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.head-text {
+  font-size: 1.7rem;
+}
+
+.sub-text {
+  font-size: 0.7rem;
+}
+
+
+
+
+.nav {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.logo-content {
+  width: 13rem;
+  font-size: 1rem;
+  margin: 1rem auto;
+
+}
+
+.side-image {
+  display: none;
+}
+
+
+@media screen and (min-width: 576px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .side-image {
+    flex-basis: 50%;
+    display: block;
+  }
+
+  .main {
+    flex-basis: 50%;
+  }
+}
+
+.image {
+  width: 100%;
+}
+
+
+.brand-logo {
+  width: 21px;
+  padding-right: 8px;
+  align-content: center;
+}
+
+.btn {
+  font-size: 0.7rem;
+  width: 100%;
+  border-radius: 107.5px;
+  font-weight: 300;
+  border: 1px solid #333;
+  padding: 1rem;
+}

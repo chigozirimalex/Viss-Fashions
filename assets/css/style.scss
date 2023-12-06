@@ -1,0 +1,104 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin: 0px 1rem;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: flex-start;
+}
+
+
+.login-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 2rem;
+}
+
+.signup-btn {
+  font-size: 20px;
+  padding: .7rem 2rem;
+  background-color: rgba(232, 122, 20, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+
+.header-subtext {
+  color: rgba(68, 195, 235, 0.8);
+}
+
+.buy-btn {
+  background-color: rgba(232, 122, 20, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.header-text {
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  @media screen and (min-width:576px) {
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .content {
+    padding: 2px;
+
+    @media screen and (min-width: 576px) {
+      position: relative;
+      top: 11rem;
+    }
+
+    @media screen and (min-width: 769px) {
+      width: 30rem;
+    }
+  }
+
+  .content-image {
+    margin-top: 45px;
+
+    @media screen and (min-width: 769px) {
+      width: 30rem;
+    }
+
+    .image {
+      width: 100%;
+    }
+  }
+}
